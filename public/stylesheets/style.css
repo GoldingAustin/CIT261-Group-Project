@@ -7,6 +7,41 @@ body {
 body {
   background-color: #186a7e;
 }
+
+/*NAVIGATION*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #bbb;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 /*TEXT*/
 h1, h2, h3, h4, th {
 	color: #f9f9f9;
